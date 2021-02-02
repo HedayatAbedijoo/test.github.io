@@ -13,7 +13,8 @@ export default class {
   }
 
   async getHtml() {
-    const html = await fetch(this.__htmlPath);
-    return await html.text();
+    return "";
+    // const html = await fetch(this.__htmlPath);
+    // return await html.text();
   }
 }
