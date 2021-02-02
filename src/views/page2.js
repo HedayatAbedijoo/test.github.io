@@ -2,15 +2,15 @@ import BaseView from "../BaseView.js";
 export default class extends BaseView {
   constructor() {
     super();
-    this.setTitle("Page2");
-    this.setPageHeader("This is page 2");    
+    this.setTitle("Page 2");
+    this.setPageHeader("This is Page 2");    
   }
 
-  
   async getHtml(){
     return `<h2>Page 2</h2>
 
-   
+       <div class="line"></div>
+    
     <h2>Lorem Ipsum Dolor</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -21,8 +21,6 @@ export default class extends BaseView {
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     
-    <div class="line"></div>
-        
     <div class="line"></div>
     
     <h3>Lorem Ipsum Dolor</h3>
